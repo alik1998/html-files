@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="bilgiler.php">
+      <div>
+        
+        <label for="name"> <b>Adınız</b> </label>
+        <input type="text" id="name" />
+      </div>
+
+      <div>
+        <label for="surname"> <b>Soyad</b> </label>
+        <input type="text" id="surname" />
+      </div>
+
+      <div>
+        <label for="parola"> şifre <b> </label>
+            <input type="password" id="parola" />
+      </div>
+
+      <div>
+        <label for="bilgi">kendini tanıt</label>
+        <textarea id="bilgi" cols="30" ></textarea>
+      </div>
+
+       
+
+       <div>
+        <!--name tagi çoklu seçimi engelleekmek için yazılmıştır burada-->
+        <h5> <b> <i> en sevdiğin renk </i> </b> </h5>
+
+        <input type="radio" id="renk-1" name="color" >
+        <label for="renk-1">sarı</label>
+
+        <input type="radio"id="renk-2" name="color" >
+        <label for="renk-2">kırmızı</label>
+        
+        <input type="radio"id="renk-3" name="color" >
+        <label for="renk-3">yeşil</label>
+
+      </div>
+      <div>
+        <label for="school">Eğitim</label>
+         <select id="school">
+          <option value="Choose"> Seçiniz </option>
+          <option value="primary school">İlk okul</option>
+          <option value="middle school">Orta okul</option>
+          <option value="high school">Lise</option>
+          <option value="university">Üniversite</option>
+         </select>
+         
+      </div>
+
+      <div>
+        <label for="eposta">Email</label>
+        <input type="email" id="eposta">
+      </div>
+
+      <div>
+        <label for="date">Doğum günü</label>
+        <input type="date" id="date">
+      </div>
+
+      <div>
+        
+        
+        <label for="datemin">2020-01-01 itibaren</label>
+        <input type="date" id="datemin" min="2020-01-01">
+        <label for="datemax">2022-12-30 kadar</label>
+        <input type="date"id="datemax" max="2022-12-30">
+      </div>
+      
+        
+      <div>
+        <button type="submit">geri</button>
+        <button type="submit">kaydet</button>  
+        <button type="submit">ileri</button>
+      </div>
+
+      
+        
+      
+
+
+      
+
+
+      
+       
+     
+      
+
+      
+
+    </form>
+  </body>
+</html>
